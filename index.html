@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Test</title>
+    <style>
+        html
+        {
+            overflow: hidden;
+        }
+
+        body
+        {   
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html, body
+        {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <script>
+        function openWorkspace() {
+            document.write('<!DOCTYPE html><head><title>Basic Text Editor</title><style>html{overflow: hidden;}body{margin: 0;box-sizing: border-box;}html, body{height: 100%;}</style></head><body><scriptsrc="script.js"><\/script></body>');
+            document.write('<div style="height: 100%; width: 100%;margin: 0;min-width: 100%;"><textarea style="border:none;height: 100%; width: 100%" id="mainTxt"></textarea></div>');
+        }
+    </script>
+</body>

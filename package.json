@@ -1,0 +1,11 @@
+{
+    "name": "text-editor",
+    "version": "0.0.2",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "electron": "^7.1.10"
+    }
+}
